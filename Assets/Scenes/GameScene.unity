@@ -156,7 +156,7 @@ MonoBehaviour:
   m_AssetsPPU: 4
   m_RefResolutionX: 640
   m_RefResolutionY: 480
-  m_UpscaleRT: 0
+  m_UpscaleRT: 1
   m_PixelSnapping: 0
   m_CropFrameX: 0
   m_CropFrameY: 0
@@ -187,7 +187,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 74.75
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 653327487}
   - component: {fileID: 653327488}
   m_Layer: 0
-  m_Name: MovingGround
+  m_Name: Moving Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,9 +258,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_GeneratorAsset: {fileID: 0}
-  m_Script: {fileID: 11500000, guid: d0762a98cc05a4d8380cc3b3efe525ae, type: 3}
+  m_Script: {fileID: 11500000, guid: c557e264428b746e487ba1402be5b0fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  platformPrefab: {fileID: 2863631262262129627, guid: dbcda9ef027834bf785a2c05ac76d15d,
+  platformPrefab: {fileID: 2863631262262129627, guid: e564f8b31f7b24db69ac21523aaf8dbe,
     type: 3}
   numberOfSegments: 20
